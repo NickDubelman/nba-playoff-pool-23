@@ -33,6 +33,7 @@ const participants = {
 	],
 
 	'Bret + Mark': [
+		// Victors
 		'Joel Embiid',
 		'James Harden',
 		'Dillon Brooks',
@@ -44,6 +45,7 @@ const participants = {
 	],
 
 	Ethan: [
+		// Chernin
 		'Khris Middleton',
 		'Desmond Bane',
 		'Tobias Harris',
@@ -66,6 +68,7 @@ const participants = {
 	],
 
 	'Adam + Kevin': [
+		// Adam = Malatesta
 		'Stephen Curry',
 		'Klay Thompson',
 		'Andrew Wiggins',
