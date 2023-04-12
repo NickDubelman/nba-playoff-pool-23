@@ -15,23 +15,28 @@ export const nameDifferences = {
 
 export const remainingTeams = [
 	// West
-	'PHO',
-	'MEM',
-	'GSW',
-	'DAL',
-	'UTA',
 	'DEN',
+	'MEM',
+	'SAC',
+	'PHO',
+	'LAC',
+	'GSW',
+	'LAL',
 	'MIN',
 	'NOP',
+	'OKC',
+
 	// East
-	'MIA',
-	'BOS',
 	'MIL',
+	'BOS',
 	'PHI',
-	'TOR',
-	'CHI',
+	'CLE',
+	'NYK',
 	'BRK',
-	'ATL'
+	'MIA',
+	'ATL',
+	'CHI',
+	'TOR'
 ]
 
 export const teamColors = {
