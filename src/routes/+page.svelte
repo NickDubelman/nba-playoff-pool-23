@@ -27,7 +27,7 @@
 	<ScoringBreakdown {gameStats} />
 	<TopScorersOverall {gameStats} />
 	<TeamBreakdown {gameStats} />
-	<DraftAnalysis {gameStats} />
+	<!-- <DraftAnalysis {gameStats} /> -->
 </div>
 
 <style>
