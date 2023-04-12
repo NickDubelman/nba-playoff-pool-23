@@ -1,4 +1,50 @@
 const participants = {
+	'Jordan + Boozy': [
+		'Giannis Antetokounmpo',
+		'Desmond Bane',
+		'Jaren Jackson Jr.',
+		'Dillon Brooks',
+		'Grayson Allen',
+		'Robert Williams',
+		'Grant Williams',
+		'Pat Connaughton'
+	],
+
+	Ethan: [
+		// Chernin
+		'Jayson Tatum',
+		'Michael Porter Jr.',
+		'Bobby Portis',
+		'Jimmy Butler',
+		'Luke Kennard',
+		'Jevon Carter',
+		'Cameron Johnson',
+		'DeMar DeRozan'
+	],
+
+	Tomlinson: [
+		'Nikola Jokić',
+		'Malcolm Brogdon',
+		'Jalen Brunson',
+		'Bruce Brown',
+		'Anthony Edwards',
+		'Russell Westbrook',
+		'Reggie Jackson',
+		'Mike Muscala'
+	],
+
+	'Adam + Kevin': [
+		// Adam = Malatesta
+		'Kevin Durant',
+		'Chris Paul',
+		'Darius Garland',
+		'Jarrett Allen',
+		"D'Angelo Russell",
+		'Trae Young',
+		'Dejounte Murray',
+		"De'Andre Hunter"
+	],
+
 	'Senac + Whitaker': [
 		'Jaylen Brown',
 		'Deandre Ayton',
@@ -8,6 +54,17 @@ const participants = {
 		'Cameron Payne',
 		'Malik Monk',
 		'Shake Milton'
+	],
+
+	Daniel: [
+		'Stephen Curry',
+		'Jamal Murray',
+		'Derrick White',
+		'Al Horford',
+		'Immanuel Quickley',
+		'Kentavious Caldwell-Pope',
+		'Quentin Grimes',
+		'Mike Conley'
 	],
 
 	Mikey: [
@@ -45,63 +102,6 @@ const participants = {
 		'Jae Crowder'
 	],
 
-	Ethan: [
-		// Chernin
-		'Jayson Tatum',
-		'Michael Porter Jr.',
-		'Bobby Portis',
-		'Jimmy Butler',
-		'Luke Kennard',
-		'Jevon Carter',
-		'Cameron Johnson',
-		'DeMar DeRozan'
-	],
-
-	'Jordan + Boozy': [
-		'Giannis Antetokounmpo',
-		'Desmond Bane',
-		'Jaren Jackson Jr.',
-		'Dillon Brooks',
-		'Grayson Allen',
-		'Robert Williams',
-		'Grant Williams',
-		'Pat Connaughton'
-	],
-
-	'Adam + Kevin': [
-		// Adam = Malatesta
-		'Kevin Durant',
-		'Chris Paul',
-		'Darius Garland',
-		'Jarrett Allen',
-		"D'Angelo Russell",
-		'Trae Young',
-		'Dejounte Murray',
-		"De'Andre Hunter"
-	],
-
-	Ellison: [
-		'Klay Thompson',
-		'Jordan Poole',
-		'Kawhi Leonard',
-		'Marcus Smart',
-		"De'Anthony Melton",
-		'Draymond Green',
-		'Xavier Tillman Sr.',
-		'Spencer Dinwiddie'
-	],
-
-	Daniel: [
-		'Stephen Curry',
-		'Jamal Murray',
-		'Derrick White',
-		'Al Horford',
-		'Immanuel Quickley',
-		'Kentavious Caldwell-Pope',
-		'Quentin Grimes',
-		'Mike Conley'
-	],
-
 	Winston: [
 		'Ja Morant',
 		'Khris Middleton',
@@ -124,15 +124,15 @@ const participants = {
 		'Trey Murphy III'
 	],
 
-	Tomlinson: [
-		'Nikola Jokić',
-		'Malcolm Brogdon',
-		'Jalen Brunson',
-		'Bruce Brown',
-		'Anthony Edwards',
-		'Russell Westbrook',
-		'Reggie Jackson',
-		'Mike Muscala'
+	Ellison: [
+		'Klay Thompson',
+		'Jordan Poole',
+		'Kawhi Leonard',
+		'Marcus Smart',
+		"De'Anthony Melton",
+		'Draymond Green',
+		'Xavier Tillman Sr.',
+		'Spencer Dinwiddie'
 	]
 }
 
