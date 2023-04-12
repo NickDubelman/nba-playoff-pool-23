@@ -10,7 +10,8 @@ export const nameDifferences = {
 	'Nikola Jokić': 'Nikola Jokic',
 	'Bogdan Bogdanović': 'Bogdan Bogdanovic',
 	'Goran Dragić': 'Goran Dragic',
-	'Bojan Bogdanović': 'Bojan Bogdanovic'
+	'Bojan Bogdanović': 'Bojan Bogdanovic',
+	'Dennis Schröder': 'Dennis Schroder'
 }
 
 export const remainingTeams = [
