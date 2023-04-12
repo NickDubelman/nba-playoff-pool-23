@@ -32,10 +32,10 @@
 			while (numPicks < 12) {
 				const participant = Object.keys(participants)[numPicks]
 				const player = participants[participant][round]
-				const { pts } = playerStats[player]
+				const stats = playerStats[player]
 				picks.push({
 					player,
-					pts,
+					pts: stats?.pts || 0,
 					pickedBy: participant,
 					drafted: picks.length + 1
 				})
@@ -83,7 +83,7 @@
 	const redGreenInterpolator = d3.interpolateHsl('rgba(0, 255, 0, 0.5)', 'rgba(255, 0, 0, 0.5)')
 
 	$: netColor = d3
-		.scaleSequential() 
+		.scaleSequential()
 		.domain(d3.extent(sortedPicks.map((p) => p.net)))
 		.interpolator(redGreenInterpolator)
 </script>
