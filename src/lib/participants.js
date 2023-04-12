@@ -125,7 +125,7 @@ const participants = {
 	],
 
 	Tomlinson: [
-		'Nikola Jokic',
+		'Nikola Jokić',
 		'Malcolm Brogdon',
 		'Jalen Brunson',
 		'Bruce Brown',

@@ -3,7 +3,7 @@ import * as d3 from 'd3'
 import participants from './participants'
 import { formatDate, nameDifferences, remainingTeams, teamNameDifferences } from './utils'
 
-const startDate = new Date(2023, 3, 8) // first day of play-in tournament
+const startDate = new Date(2023, 3, 11) // first day of play-in tournament
 
 export async function getGames() {
 	let allData = []
