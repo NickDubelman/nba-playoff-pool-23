@@ -1,137 +1,138 @@
 const participants = {
 	'Senac + Whitaker': [
-		'Devin Booker',
-		'Donovan Mitchell',
-		'Bobby Portis',
+		'Jaylen Brown',
+		'Deandre Ayton',
+		'Anthony Davis',
+		'Kevin Huerter',
+		'Harrison Barnes',
 		'Cameron Payne',
-		'Victor Oladipo',
-		'Duncan Robinson',
-		'JaVale McGee',
-		'Tyus Jones'
+		'Malik Monk',
+		'Shake Milton'
 	],
 
 	Mikey: [
-		'Giannis Antetokounmpo',
-		'Cameron Johnson',
-		'Kyle Lowry',
-		'DeMar DeRozan',
-		'Norman Powell',
-		'Marcus Morris',
-		'Nikola Vucevic',
-		"Royce O'Neale"
+		// Reiss
+		'Joel Embiid',
+		'Donovan Mitchell',
+		'LeBron James',
+		'Caris LeVert',
+		'Bam Adebayo',
+		'Karl-Anthony Towns',
+		'Keegan Murray',
+		'Fred VanVleet'
 	],
 
 	Nick: [
-		'Kevin Durant',
-		'Kyrie Irving',
-		'Jordan Poole',
-		'Jae Crowder',
-		'Scottie Barnes',
-		'Bruce Brown',
-		'Darius Garland',
-		'Nicolas Claxton'
+		'Devin Booker',
+		'Brook Lopez',
+		'Evan Mobley',
+		'Jonathan Kuminga',
+		'Donte DiVincenzo',
+		'Josh Okogie',
+		'Malik Beasley',
+		'Terrence Ross'
 	],
 
 	'Bret + Mark': [
 		// Victors
-		'Joel Embiid',
-		'James Harden',
-		'Dillon Brooks',
+		'Jrue Holiday',
+		"De'Aaron Fox",
 		'Aaron Gordon',
-		'Zach LaVine',
-		'Reggie Jackson',
-		'Evan Mobley',
-		'Ivica Zubac'
+		'Domantas Sabonis',
+		'Austin Reaves',
+		'Tyler Herro',
+		'Dennis Schröder',
+		'Jae Crowder'
 	],
 
 	Ethan: [
 		// Chernin
-		'Khris Middleton',
-		'Desmond Bane',
-		'Tobias Harris',
-		'Gary Trent Jr.',
-		'Will Barton',
-		'Pat Connaughton',
-		'Dorian Finney-Smith',
-		'Chris Boucher'
+		'Jayson Tatum',
+		'Michael Porter Jr.',
+		'Bobby Portis',
+		'Jimmy Butler',
+		'Luke Kennard',
+		'Jevon Carter',
+		'Cameron Johnson',
+		'DeMar DeRozan'
 	],
 
 	'Jordan + Boozy': [
-		'Jayson Tatum',
-		'Mikal Bridges',
-		'Marcus Smart',
-		'Fred VanVleet',
-		'Al Horford',
-		'Brandon Clarke',
-		'Draymond Green',
-		'Grant Williams'
+		'Giannis Antetokounmpo',
+		'Desmond Bane',
+		'Jaren Jackson Jr.',
+		'Dillon Brooks',
+		'Grayson Allen',
+		'Robert Williams',
+		'Grant Williams',
+		'Pat Connaughton'
 	],
 
 	'Adam + Kevin': [
 		// Adam = Malatesta
-		'Stephen Curry',
-		'Klay Thompson',
-		'Andrew Wiggins',
-		'Seth Curry',
-		'Jordan Clarkson',
-		'Mike Conley',
-		'Jonathan Kuminga',
-		'Otto Porter Jr.'
-	],
-
-	'Robbie E': [
-		'Ja Morant',
-		'Tyler Herro',
-		'Jaren Jackson Jr.',
-		'Brook Lopez',
-		'Rudy Gobert',
-		'OG Anunoby',
-		'Andre Drummond',
-		'Ziaire Williams'
-	],
-
-	Daniel: [
-		'Jaylen Brown',
-		'Deandre Ayton',
-		'Derrick White',
-		'Bojan Bogdanovic',
+		'Kevin Durant',
+		'Chris Paul',
+		'Darius Garland',
+		'Jarrett Allen',
+		"D'Angelo Russell",
 		'Trae Young',
-		'Landry Shamet',
-		'Payton Pritchard',
+		'Dejounte Murray',
 		"De'Andre Hunter"
 	],
 
-	Winston: [
-		'Jrue Holiday',
-		'Chris Paul',
-		'Paul George',
-		'Pascal Siakam',
-		'Grayson Allen',
+	Ellison: [
+		'Klay Thompson',
+		'Jordan Poole',
+		'Kawhi Leonard',
+		'Marcus Smart',
 		"De'Anthony Melton",
-		'Monte Morris',
-		'Lauri Markkanen'
+		'Draymond Green',
+		'Xavier Tillman Sr.',
+		'Spencer Dinwiddie'
+	],
+
+	Daniel: [
+		'Stephen Curry',
+		'Jamal Murray',
+		'Derrick White',
+		'Al Horford',
+		'Immanuel Quickley',
+		'Kentavious Caldwell-Pope',
+		'Quentin Grimes',
+		'Mike Conley'
+	],
+
+	Winston: [
+		'Ja Morant',
+		'Khris Middleton',
+		'Andrew Wiggins',
+		'RJ Barrett',
+		'Mikal Bridges',
+		'Norman Powell',
+		'Tyus Jones',
+		'Pascal Siakam'
 	],
 
 	David: [
-		'Luka Doncic',
-		'Nikola Jokic',
+		'James Harden',
 		'Tyrese Maxey',
-		'Jalen Brunson',
-		'Spencer Dinwiddie',
-		"Nah'Shon Hyland",
-		'Bogdan Bogdanovic',
-		'Clint Capela'
+		'Julius Randle',
+		'Tobias Harris',
+		'Brandon Ingram',
+		'CJ McCollum',
+		'Josh Hart',
+		'Trey Murphy III'
 	],
 
-	'Robby T': [
-		'Jimmy Butler',
-		'Bam Adebayo',
-		'Karl-Anthony Towns',
+	Tomlinson: [
+		'Nikola Jokic',
+		'Malcolm Brogdon',
+		'Jalen Brunson',
+		'Bruce Brown',
 		'Anthony Edwards',
-		"D'Angelo Russell",
-		'Max Strus',
-		'Caleb Martin',
-		'Gabe Vincent'
+		'Russell Westbrook',
+		'Reggie Jackson',
+		'Mike Muscala'
 	]
 }
 
