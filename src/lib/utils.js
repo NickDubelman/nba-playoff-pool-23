@@ -67,28 +67,28 @@ export const teamColors = {
 
 export const allTeams = [
 	// West
-	'PHO',
-	'MEM',
-	'GSW',
-	'DAL',
-	'UTA',
 	'DEN',
-	'MIN',
+	'MEM',
+	'SAC',
+	'PHO',
 	'LAC',
+	'GSW',
+	'LAL',
+	'MIN',
 	'NOP',
-	'SAS',
+	'OKC',
 
 	// East
-	'MIA',
-	'BOS',
 	'MIL',
+	'BOS',
 	'PHI',
-	'TOR',
-	'CHI',
-	'BRK',
 	'CLE',
+	'NYK',
+	'BRK',
+	'MIA',
 	'ATL',
-	'CHA'
+	'CHI',
+	'TOR'
 ].sort()
 
 export const fullName = ({ first_name, last_name }) => `${first_name} ${last_name}`

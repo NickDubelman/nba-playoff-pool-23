@@ -13,7 +13,7 @@
 
 	export let gameStats
 
-	let breakdownTeam = 'BRK'
+	let breakdownTeam = 'LAL'
 
 	$: playersForTeam = Object.entries(participants)
 		.map(([participant, players]) =>
