@@ -47,10 +47,10 @@
 			while (numPicks >= 0) {
 				const participant = Object.keys(participants)[numPicks]
 				const player = participants[participant][round]
-				const { pts } = playerStats[player]
+				const stats = playerStats[player]
 				picks.push({
 					player,
-					pts,
+					pts: stats?.pts || 0,
 					pickedBy: participant,
 					drafted: picks.length + 1
 				})
