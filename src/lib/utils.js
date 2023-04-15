@@ -25,7 +25,7 @@ export const remainingTeams = [
 	'LAL',
 	'MIN',
 	// 'NOP',
-	'OKC',
+	// 'OKC',
 
 	// East
 	'MIL',
