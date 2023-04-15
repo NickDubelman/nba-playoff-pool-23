@@ -14,27 +14,16 @@
 	<title>Scoring Pool</title>
 </svelte:head>
 
-<div class="content">
-	<h1>NBA Playoffs 2023 Scoring Pool</h1>
+<h1>NBA Playoffs 2023 Scoring Pool</h1>
 
-	<p>
-		These stats should update every 10 minutes or so. You need to refresh your page for the stats to
-		update.
-	</p>
+<p>
+	These stats should update every 10 minutes or so. You need to refresh your page for the stats to
+	update.
+</p>
 
-	<Leaderboard {participantScores} />
-	<TodaysTopPerformers {gameStats} {games} />
-	<ScoringBreakdown {gameStats} />
-	<TopScorersOverall {gameStats} />
-	<TeamBreakdown {gameStats} />
-	<!-- <DraftAnalysis {gameStats} /> -->
-</div>
-
-<style>
-	.content {
-		font-family: 'Source Serif Pro';
-		width: 464px;
-		margin: auto;
-		margin-bottom: 24px;
-	}
-</style>
+<Leaderboard {participantScores} />
+<TodaysTopPerformers {gameStats} {games} />
+<ScoringBreakdown {gameStats} />
+<TopScorersOverall {gameStats} />
+<TeamBreakdown {gameStats} />
+<DraftAnalysis {gameStats} />
