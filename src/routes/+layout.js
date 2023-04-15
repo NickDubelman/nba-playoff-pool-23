@@ -11,12 +11,12 @@ const shouldRefetch = () => {
 	return (now.getTime() - cachedStats.time.getTime()) / 1000 > 60
 }
 
-export async function load() {
+export async function load({ fetch }) {
 	let games, gameStats
 	if (shouldRefetch()) {
 		cachedStats = { ...cachedStats, fetching: true }
-		games = await getGames()
-		gameStats = await getStats(games)
+		games = await getGames(fetch)
+		gameStats = await getStats(fetch, games)
 
 		cachedStats = {
 			data: { games, gameStats },

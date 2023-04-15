@@ -5,7 +5,7 @@ import { formatDate, nameDifferences, remainingTeams, teamNameDifferences } from
 
 const startDate = new Date(2023, 3, 11) // first day of play-in tournament
 
-export async function getGames() {
+export async function getGames(fetch) {
 	let allData = []
 
 	const baseURL = 'https://www.balldontlie.io/api/v1/games'
@@ -28,7 +28,7 @@ export async function getGames() {
 	return allData
 }
 
-export async function getStats(games) {
+export async function getStats(fetch, games) {
 	let allData = []
 
 	const baseURL = 'https://www.balldontlie.io/api/v1/stats'
