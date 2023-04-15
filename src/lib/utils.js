@@ -24,7 +24,7 @@ export const remainingTeams = [
 	'GSW',
 	'LAL',
 	'MIN',
-	'NOP',
+	// 'NOP',
 	'OKC',
 
 	// East
@@ -36,8 +36,8 @@ export const remainingTeams = [
 	'BRK',
 	'MIA',
 	'ATL',
-	'CHI',
-	'TOR'
+	'CHI'
+	// 'TOR'
 ]
 
 export const teamColors = {
