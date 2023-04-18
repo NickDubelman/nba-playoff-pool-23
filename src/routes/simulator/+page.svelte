@@ -1,6 +1,6 @@
 <script>
 	import participants from '$lib/participants'
-	import { fullName, remainingTeams } from '$lib/utils'
+	import { fullName, remainingTeams, nameDifferences } from '$lib/utils'
 
 	export let data
 	const { games, gameStats, participantScores } = data
@@ -8,20 +8,20 @@
 	const playerStats = {} // a map from player name to corresponding stats
 
 	let teamProjectedGames = {
-		DEN: 11,
-		MEM: 7,
-		SAC: 6,
-		PHO: 24,
+		DEN: 10,
+		MEM: 6,
+		SAC: 5,
+		PHO: 23,
 		LAC: 4,
-		GSW: 13,
-		LAL: 18,
-		MIN: 4,
-		MIL: 24,
-		BOS: 18,
-		PHI: 12,
-		CLE: 13,
-		NYK: 7,
-		BRK: 5,
+		GSW: 12,
+		LAL: 17,
+		MIN: 3,
+		MIL: 23,
+		BOS: 17,
+		PHI: 11,
+		CLE: 12,
+		NYK: 6,
+		BRK: 4,
 		MIA: 4,
 		ATL: 3
 	}
@@ -30,7 +30,10 @@
 	let playerTeams = {}
 
 	gameStats.forEach(({ player, team, pts }) => {
-		const name = fullName(player)
+		let name = fullName(player)
+		if (nameDifferences[name]) {
+			name = nameDifferences[name]
+		}
 
 		// First time we see a player, initialize an entry in the map for them
 		if (!playerStats[name]) {
@@ -49,11 +52,19 @@
 		return Math.round(num * 10) / 10
 	}
 
-	function getPlayerPoints(player) {
-		return playerStats[player]?.pts || 0
+	function getPlayerPoints(playerName) {
+		if (nameDifferences[playerName]) {
+			playerName = nameDifferences[playerName]
+		}
+
+		return playerStats[playerName]?.pts || 0
 	}
 
 	function getPlayerPPG(playerName) {
+		if (nameDifferences[playerName]) {
+			playerName = nameDifferences[playerName]
+		}
+
 		const player = playerStats[playerName]
 		if (!player) {
 			return 0
@@ -71,10 +82,18 @@
 	}
 
 	$: getPlayerProjectedPPG = (playerName) => {
+		if (nameDifferences[playerName]) {
+			playerName = nameDifferences[playerName]
+		}
+
 		return playerProjectedPPG[playerName] || 0
 	}
 
 	$: getPlayerTeam = (playerName) => {
+		if (nameDifferences[playerName]) {
+			playerName = nameDifferences[playerName]
+		}
+
 		return playerStats[playerName]?.team || playerTeams[playerName] || ''
 	}
 </script>
@@ -176,38 +195,6 @@
 		</tbody>
 	</table>
 {/each}
-
-<h2>Players who haven't played yet</h2>
-
-<p>Unfortunately, we don't have any data for these players yet. Please enter their team below.</p>
-
-<table>
-	<thead>
-		<tr>
-			<th>Player</th>
-			<th>Team</th>
-		</tr>
-	</thead>
-
-	<tbody>
-		{#each Object.entries(participants) as [participant, players]}
-			{#each players as player}
-				{#if !playerStats[player]}
-					<tr>
-						<td>{player}</td>
-						<td>
-							<input
-								type="text"
-								value={playerTeams[player] || ''}
-								on:change={(e) => (playerTeams[player] = e.target.value.toUpperCase())}
-							/>
-						</td>
-					</tr>
-				{/if}
-			{/each}
-		{/each}
-	</tbody>
-</table>
 
 <style>
 	/* basic bordered table */
