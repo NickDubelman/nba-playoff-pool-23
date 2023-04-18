@@ -86,10 +86,6 @@
 	}
 
 	$: getPlayerProjectedPPG = (playerName) => {
-		if (nameDifferences[playerName]) {
-			playerName = nameDifferences[playerName]
-		}
-
 		return playerProjectedPPG[playerName] || 0
 	}
 
