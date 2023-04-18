@@ -12,7 +12,8 @@ export const nameDifferences = {
 	'Goran Dragić': 'Goran Dragic',
 	'Bojan Bogdanović': 'Bojan Bogdanovic',
 	'Dennis Schröder': 'Dennis Schroder',
-	'Robert Williams': 'Robert Williams III'
+	'Robert Williams': 'Robert Williams III',
+	'Xavier Tillman Sr.': 'Xavier Tillman'
 }
 
 export const remainingTeams = [
