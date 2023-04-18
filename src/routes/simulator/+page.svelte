@@ -1,6 +1,6 @@
 <script>
 	import participants from '$lib/participants'
-	import { fullName, remainingTeams, nameDifferences } from '$lib/utils'
+	import { fullName, remainingTeams, nameDifferences, teamNameDifferences } from '$lib/utils'
 
 	export let data
 	const { games, gameStats, participantScores } = data
@@ -78,6 +78,10 @@
 	}
 
 	$: getTeamProjectedGames = (team) => {
+		if (teamNameDifferences[team]) {
+			team = teamNameDifferences[team]
+		}
+
 		return teamProjectedGames[team] || 0
 	}
 
