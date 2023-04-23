@@ -35,7 +35,7 @@ export const remainingTeams = [
 	'PHI',
 	'CLE',
 	'NYK',
-	'BRK',
+	// 'BRK',
 	'MIA',
 	'ATL'
 	// 'CHI'
