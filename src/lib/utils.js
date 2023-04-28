@@ -30,14 +30,14 @@ export const remainingTeams = [
 	// 'OKC',
 
 	// East
-	'MIL',
+	// 'MIL',
 	'BOS',
 	'PHI',
 	// 'CLE',
 	'NYK',
 	// 'BRK',
 	'MIA',
-	'ATL'
+	// 'ATL'
 	// 'CHI'
 	// 'TOR'
 ]
