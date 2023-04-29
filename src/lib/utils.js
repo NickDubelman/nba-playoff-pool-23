@@ -19,7 +19,7 @@ export const nameDifferences = {
 export const remainingTeams = [
 	// West
 	'DEN',
-	'MEM',
+	// 'MEM',
 	'SAC',
 	'PHO',
 	// 'LAC',
