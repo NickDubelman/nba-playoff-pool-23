@@ -20,7 +20,7 @@ export const remainingTeams = [
 	// West
 	'DEN',
 	// 'MEM',
-	'SAC',
+	// 'SAC',
 	'PHO',
 	// 'LAC',
 	'GSW',
