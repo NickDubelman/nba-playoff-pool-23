@@ -21,7 +21,7 @@ export const remainingTeams = [
 	'DEN',
 	// 'MEM',
 	// 'SAC',
-	'PHO',
+	// 'PHO',
 	// 'LAC',
 	'GSW',
 	'LAL',
@@ -34,7 +34,7 @@ export const remainingTeams = [
 	'BOS',
 	'PHI',
 	// 'CLE',
-	'NYK',
+	// 'NYK',
 	// 'BRK',
 	'MIA',
 	// 'ATL'
