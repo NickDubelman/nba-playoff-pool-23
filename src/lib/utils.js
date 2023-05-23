@@ -23,7 +23,7 @@ export const remainingTeams = [
 	// 'SAC',
 	// 'PHO',
 	// 'LAC',
-	'GSW',
+	// 'GSW',
 	'LAL',
 	// 'MIN',
 	// 'NOP',
@@ -32,7 +32,7 @@ export const remainingTeams = [
 	// East
 	// 'MIL',
 	'BOS',
-	'PHI',
+	// 'PHI',
 	// 'CLE',
 	// 'NYK',
 	// 'BRK',
