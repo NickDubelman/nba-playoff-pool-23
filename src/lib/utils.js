@@ -24,7 +24,7 @@ export const remainingTeams = [
 	// 'PHO',
 	// 'LAC',
 	// 'GSW',
-	'LAL',
+	// 'LAL',
 	// 'MIN',
 	// 'NOP',
 	// 'OKC',
