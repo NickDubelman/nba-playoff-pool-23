@@ -31,7 +31,7 @@ export const remainingTeams = [
 
 	// East
 	// 'MIL',
-	'BOS',
+	// 'BOS',
 	// 'PHI',
 	// 'CLE',
 	// 'NYK',
